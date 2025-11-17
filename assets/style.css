@@ -171,7 +171,7 @@ body {
 
 .hero-section {
   background-color: #f5f5f5;
-  background-image: url(/assets/images/hero.png);
+  background-image: url(./images/hero.png);
   background-size: cover;
   background-position: top;
   height: 100vh;
