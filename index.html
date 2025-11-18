@@ -19,7 +19,7 @@
     />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg position-absolute">
+    <nav class="navbar navbar-expand-lg ">
       <div class="container">
         <a class="navbar-brand" href="#"
           ><svg
@@ -85,9 +85,11 @@
             <a class="nav-link" href="#">Rental deals</a>
             <a class="nav-link" href="#">How it work</a>
             <a class="nav-link" href="#">Why choose us</a>
+                        <a class="nav-link d-lg-none" href="#">Sign in</a>
+            <a class="nav-link  d-lg-none" href="#">Sign up</a>
           </div>
         </div>
-        <div class="d-flex gap-2">
+        <div class="d-flex gap-2 d-lg-block d-none">
           <a class="btn" href="#">Sign in</a>
           <a class="primary-btn" href="#">Sign up</a>
         </div>
@@ -413,11 +415,12 @@
     </section>
 
     <section class="services">
-      <div class="row">
-        <div class="col-md-6">
-          <img src="assets/images/Group-29.png" alt="" />
+      <!-- <div class="row">
+        <div class=" col-md-6 p-0 col-12">
+          <img src="assets/images/Group-29.png" class="img-fluid" alt="" />
         </div>
-        <div class="col-md-6">
+        <div class=" col-md-6 p-0 col-12">
+
           <h5 class="section-subheading">WHY CHOOSE US</h5>
           <h2>We offer the best experience with our rental deals</h2>
           <div class="service-details">
@@ -471,6 +474,70 @@
               </div>
             </div>
           </div>
+
+        </div>
+      </div> -->
+         <div class="services-grid">
+        <div class="services-grid-item1">
+          <img src="assets/images/Group-29.png" class="img-fluid" alt="" />
+        </div>
+        <div class="services-grid-item2">
+          <div>
+          <h5 class="section-subheading">WHY CHOOSE US</h5>
+          <h2>We offer the best experience with our rental deals</h2>
+          </div>
+          <div class="service-details">
+            <div class="service-points">
+              <div class="icons">
+                <img src="assets/images/price.png" alt="" />
+              </div>
+              <div class="detail">
+                <h5>Best price guaranteed</h5>
+                <p>
+                  Find a lower price? We’ll refund you 100% of the difference.
+                </p>
+              </div>
+            </div>
+            <div class="service-points">
+              <div class="icons">
+                <img src="assets/images/driver.png" alt="" />
+              </div>
+              <div class="detail">
+                <h5>Experience driver</h5>
+                <p>
+                  Don’t have driver? Don’t worry, we have many experienced
+                  driver for you.
+                </p>
+              </div>
+            </div>
+            <div class="service-points">
+              <div class="icons">
+                <img src="assets/images/delivery.png" alt="" />
+              </div>
+              <div class="detail">
+                <h5>24 hour car delivery</h5>
+                <p>
+                  Book your car anytime and we will deliver it directly to you.
+                </p>
+              </div>
+            </div>
+            <div class="service-points">
+              <div class="icons">
+                <img
+                  src="assets/images/support.png"
+                  alt="24/7 technical support"
+                />
+              </div>
+              <div class="detail">
+                <h5>24/7 technical support</h5>
+                <p>
+                  Have a question? Contact Rentcars support any time when you
+                  have problem.
+                </p>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
@@ -487,87 +554,96 @@
           Most popular cars rental deals
         </h2>
 
-        <div class="row g-4">
-          <!-- Card 1 -->
-          <div class="col-lg-3 col-md-6">
-            <div class="car-card shadow-sm p-3 rounded-4 h-100">
-              <img
-                src="assets/images/jaguar.png"
-                class="img-fluid"
-                alt="Jaguar"
-              />
-              <h5 class="car-title mt-3">Jaguar XE L P250</h5>
-              <p class="rating small">⭐ 4.8 <span>(2,418 reviews)</span></p>
+<div class="car-grid" bis_skin_checked="1">
+ <div class="car-card" bis_skin_checked="1">
+ <img src="assets/images/jaguar.png" alt="">
+ <h3>Jaguar XE L P250</h3>
+ <p class="rating"><i class="ri-star-fill"></i> 4.8 (2.4k reviews)</p>
+ <div class="car-info" bis_skin_checked="1">
+ <span>4 Passengers</span>
+ <span>Auto</span>
+ <span>Air Conditioning</span>
+ </div>
+ <p class="price">$1,800 <span>/ day</span></p>
+ <button class="rent-btn">Rent Now</button>
+ </div>
+ <div class="car-card" bis_skin_checked="1">
+ <img src="assets/images/audi.png" alt="">
+ <h3>Audi R8</h3>
+ <p class="rating"><i class="ri-star-fill"></i> 4.6 (3.8k reviews)</p>
+ <div class="car-info" bis_skin_checked="1">
+ <span>4 Passengers</span>
+ <span>Auto</span>
+ <span>Air Conditioning</span>
+ </div>
+ <p class="price">$2,300 <span>/ day</span></p>
+ <button class="rent-btn">Rent Now</button>
+ </div>
+ <div class="car-card" bis_skin_checked="1">
+ <img src="assets/images/bmw.png" alt="">
+ <h3>BMW M3</h3>
+ <p class="rating"><i class="ri-star-fill"></i> 4.8 (2.6k reviews)</p>
+ <div class="car-info" bis_skin_checked="1">
+ <span>4 Passengers</span>
+ <span>Auto</span>
+ <span>Air Conditioning</span>
+ </div>
+ <p class="price">$1,600 <span>/ day</span></p>
+ <button class="rent-btn">Rent Now</button>
+ </div>
+ <div class="car-card" bis_skin_checked="1">
+ <img src="assets/images/lamborghini.png" alt="">
+ <h3>Lamborghini Huracan</h3>
+ <p class="rating"><i class="ri-star-fill"></i> 4.9 (4.8k reviews)</p>
+ <div class="car-info" bis_skin_checked="1">
+ <span>2 Passengers</span>
+ <span>Auto</span>
+ <span>2 Doors</span>
+ </div>
+ <p class="price">$3,200 <span>/ day</span></p>
+ <button class="rent-btn">Rent Now</button>
+ </div>
+ </div>
 
-              <p class="car-info small">4 Passengers • Auto • AC • 4 Doors</p>
-
-              <p class="price-label mt-3 mb-0">Price</p>
-              <p class="price">$1,800 <span>/day</span></p>
-
-              <a href="#" class="primary-btn">Rent Now →</a>
-            </div>
-          </div>
-
-          <!-- Card 2 -->
-          <div class="col-lg-3 col-md-6">
-            <div class="car-card shadow-sm p-3 rounded-4 h-100">
-              <img
-                src="assets/images/audi.png"
-                class="img-fluid"
-                alt="Audi R8"
-              />
-              <h5 class="car-title mt-3">Audi R8</h5>
-              <p class="rating small">⭐ 4.8 <span>(3,038 reviews)</span></p>
-
-              <p class="car-info small">2 Passengers • Auto • AC • 2 Doors</p>
-
-              <p class="price-label mt-3 mb-0">Price</p>
-              <p class="price">$2,100 <span>/day</span></p>
-
-              <a href="#" class="primary-btn">Rent Now →</a>
-            </div>
-          </div>
-
-          <!-- Card 3 -->
-          <div class="col-lg-3 col-md-6">
-            <div class="car-card shadow-sm p-3 rounded-4 h-100">
-              <img
-                src="assets/images/bmw.png"
-                class="img-fluid"
-                alt="BMW M3"
-              />
-              <h5 class="car-title mt-3">BMW M3</h5>
-              <p class="rating small">⭐ 4.5 <span>(2,038 reviews)</span></p>
-
-              <p class="car-info small">4 Passengers • Auto • AC • 4 Doors</p>
-
-              <p class="price-label mt-3 mb-0">Price</p>
-              <p class="price">$1,600 <span>/day</span></p>
-
-              <a href="#" class="primary-btn">Rent Now →</a>
-            </div>
-          </div>
-
-          <!-- Card 4 -->
-          <div class="col-lg-3 col-md-6">
-            <div class="car-card shadow-sm p-3 rounded-4 h-100">
-              <img
-                src="assets/images/lamborghini.png"
-                class="img-fluid"
-                alt="Lamborghini"
-              />
-              <h5 class="car-title mt-3">Lamborghini Huracan</h5>
-              <p class="rating small">⭐ 4.3 <span>(3,230 reviews)</span></p>
-
-              <p class="car-info small">2 Passengers • Auto • AC • 2 Doors</p>
-
-              <p class="price-label mt-3 mb-0">Price</p>
-              <p class="price">$2,300 <span>/day</span></p>
-
-              <a href="#" class="primary-btn">Rent Now →</a>
-            </div>
-          </div>
-        </div>
+ <section class="testimonials">
+ <h4 class="test-tag">TESTIMONIALS</h4>
+ <h2 class="test-title">What people say about us?</h2>
+ <div class="test-container" bis_skin_checked="1">
+ <div class="test-card" bis_skin_checked="1">
+ <img src="assets/images/boy.png" class="test-img" alt="">
+ <div class="test-content" bis_skin_checked="1">
+ <h3>5.0 <span>stars</span></h3>
+ <div class="stars" bis_skin_checked="1">
+ ★★★★★
+ </div>
+ <p>"I feel very secure when using caretall’s services. Your customer care team is very en </p><h4 class="name">Charlie Johnson</h4>
+ <span class="location">From New York, US</span>
+ </div>
+ </div>
+ <div class="test-card" bis_skin_checked="1">
+ <img src="assets/images/girl.png" class="test-img" alt="">
+ <div class="test-content" bis_skin_checked="1">
+ <h3>4.8 <span>stars</span></h3>
+ <div class="stars" bis_skin_checked="1">
+ ★★★★★
+ </div>
+ <p>"Great service! The drivers are professional and the cars are always in perfect condit </p><h4 class="name">Emily Parker</h4>
+ <span class="location">From California, US</span>
+ </div>
+ </div>
+ <div class="test-card" bis_skin_checked="1">
+ <img src="assets/images/boy.png" class="test-img" alt="">
+ <div class="test-content" bis_skin_checked="1">
+ <h3>5.0 <span>stars</span></h3>
+ <div class="stars" bis_skin_checked="1">
+ ★★★★★
+ </div>
+ <p>"I've been using caretall for business trips and I love the punctuality and quality. E </p><h4 class="name">Mike Robertson</h4>
+ <span class="location">From Texas, US</span>
+ </div>
+ </div>
+ </div>
+</section>
 
         <!-- Footer button -->
         <div class="text-center mt-4">
@@ -577,6 +653,32 @@
         </div>
       </div>
     </section>
+        <div class="bottom-section">
+      <div class="container">
+        <div class="row">
+          
+
+        <div class="hero-heading col-md-6">
+          <hgroup>
+            <h1>Download Rentcars App for  <span>FREE</span></h1>
+            <p>
+              For faster, easier booking and exclusive deals.
+            </p>
+          </hgroup>
+          <div class="d-flex gap-2">
+            <img src="/assets/images/google-play.png" alt="" />
+            <img src="/assets/images/app-store.png" alt="" />
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="mobile-mockup">
+          <img src="assets/images/mobile-mockup.png" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+
+        </div>
+    </div>
 <footer class="footer-section pt-5 pb-3">
     <div class="container">
 
@@ -599,7 +701,6 @@
 </clipPath>
 </defs>
 </svg>
-                    <h4 class="ms-2 mb-0 footer-brand">RENTCARS</h4>
                 </div>
 
                 <ul class="footer-contact list-unstyled">
