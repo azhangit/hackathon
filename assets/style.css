@@ -176,13 +176,15 @@ body {
   background-position: top;
   height: 100vh;
   background-repeat: no-repeat;
-  align-content: center;
-}
+  display: flex;
+flex-direction: column;
+justify-content: flex-end;}
 
-.hero-heading {
+.hero-section  .hero-heading {
   gap: 40px;
   display: flex;
   flex-direction: column;
+  margin-bottom: 10%;
 }
 
 .hero-section h1 {
@@ -226,7 +228,8 @@ body {
   padding-block: 12px;
   border-radius: 12px;
   padding-inline-start: 32px;
-  justify-content: center;
+  justify-content: space-between;
+  display: flex;
 }
 
 hgroup {
@@ -409,14 +412,12 @@ hgroup {
   color: #c9d2db;
 }
 
-.popular-cars{
-    background-image: url(images/bg.png);
-
-}
 
 .testimonials {
   text-align: center;
   padding: 60px 5%;
+      background-image: url(images/bg.png);
+
 }
 
 .test-tag {
@@ -695,6 +696,12 @@ hgroup {
     gap: 6px;
     padding-inline: 12px;
     margin-inline: auto;
+    max-width: 330px;
+    justify-content: center;
+  }
+
+  .mini-card .primary-btn{
+    margin-inline:  auto;
   }
 
   .mini-card-row .card-title {
@@ -721,6 +728,10 @@ hgroup {
     display: grid;
     grid-template-columns: 1fr;
     gap: 25px;
+  }
+
+  .services-grid-item2 .section-header{
+    text-align: center;
   }
 
   .hero-section{
