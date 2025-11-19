@@ -569,6 +569,11 @@ hgroup {
   .test-card {
     flex-direction: column;
   }
+
+  .store-image{
+    flex-direction: column;
+    max-width: 100px;
+  }
 }
 
 .car-grid {
