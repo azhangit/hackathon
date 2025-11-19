@@ -517,8 +517,12 @@ hgroup {
   background-position: left;
   background-repeat: no-repeat;
   align-content: center;
-  height: 500px;
+  height: 100%;
   padding-block: 40px;
+}
+
+.mobile-mockup{
+  margin-top: 20px;
 }
 
 .mobile-mockup img {
@@ -712,6 +716,12 @@ hgroup {
   section {
     padding-block: 24px;
   }
+
+  .bottom-section h1 {
+  max-width: 13ch;
+  font-size: 36px;
+  color: #242424;
+}
 }
 
 @media (max-width: 576px) {
