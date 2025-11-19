@@ -588,12 +588,9 @@ hgroup {
   padding: 20px;
   border-radius: 18px;
   box-shadow: 0 8px 35px rgba(0, 0, 0, 0.05);
-  transition: 0.2s;
 }
 
-.car-card:hover {
-  transform: translateY(-5px);
-}
+
 
 .car-card img {
   width: 100%;
