@@ -295,7 +295,6 @@ hgroup {
   align-items: center;
 }
 
-/* Badge */
 .popular-badge {
   background: #eaf2ff;
   color: #1572d3;
@@ -313,7 +312,6 @@ hgroup {
   gap: 96px;
 }
 
-/* Car Cards */
 .car-card img {
   width: 100%;
   height: auto;
@@ -331,7 +329,6 @@ hgroup {
   color: #666;
 }
 
-/* Pricing */
 .price-label {
   font-weight: 600;
 }
@@ -346,7 +343,6 @@ hgroup {
   color: #777;
 }
 
-/* Buttons */
 .rent-btn {
   background: #1572d3;
   color: #fff;
@@ -370,7 +366,6 @@ hgroup {
   color: #e6edf4;
 }
 
-/* Logo */
 .footer-logo-img {
   width: 40px;
 }
@@ -380,20 +375,17 @@ hgroup {
   font-weight: 600;
 }
 
-/* Icons */
 .footer-icon {
   font-size: 20px;
   margin-right: 10px;
 }
 
-/* Headings */
 .footer-heading {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 15px;
 }
 
-/* Links */
 .footer-links li {
   margin-bottom: 10px;
 }
@@ -408,12 +400,10 @@ hgroup {
   color: #ffffff;
 }
 
-/* Divider */
 .footer-divider {
   border-color: #2c4156;
 }
 
-/* Bottom Text */
 .footer-bottom {
   font-size: 14px;
   color: #c9d2db;
@@ -424,7 +414,6 @@ hgroup {
 
 }
 
-/* reveiws scetion start */
 .testimonials {
   text-align: center;
   padding: 60px 5%;
@@ -450,7 +439,7 @@ hgroup {
 .test-container {
   margin-top: 40px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 25px;
 }
 
@@ -460,6 +449,7 @@ hgroup {
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
   overflow: hidden;
   transition: 0.3s;
+  display: flex;
 }
 
 .test-card:hover {
@@ -468,7 +458,7 @@ hgroup {
 
 .test-img {
   width: 100%;
-  height: 260px;
+  height: 300px;
   object-fit: cover;
 }
 
@@ -509,7 +499,6 @@ hgroup {
   font-size: 13px;
   color: #888;
 }
-/* reveiws scetion start */
 .bottom-section {
   background-color: #f5f5f5;
   background-image: url(./images/bottom.png);
@@ -566,7 +555,6 @@ hgroup {
 }
 
 
-/* Responsive Optimization */
 @media (max-width: 992px) {
   .footer-section {
     text-align: left;
@@ -576,6 +564,10 @@ hgroup {
 @media (max-width: 576px) {
   .footer-logo {
     justify-content: start;
+  }
+
+  .test-card {
+    flex-direction: column;
   }
 }
 
@@ -730,6 +722,10 @@ hgroup {
     display: grid;
     grid-template-columns: 1fr;
     gap: 25px;
+  }
+
+  .hero-section{
+    height: 100% !important;
   }
 
    
