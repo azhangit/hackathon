@@ -448,13 +448,10 @@ hgroup {
   border-radius: 20px;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
   overflow: hidden;
-  transition: 0.3s;
   display: flex;
 }
 
-.test-card:hover {
-  transform: translateY(-6px);
-}
+
 
 .test-img {
   width: 100%;
